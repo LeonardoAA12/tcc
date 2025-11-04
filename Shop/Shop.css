@@ -1,7 +1,7 @@
 .fundo{
     height: 100%;
     width: 100%;
-    background-image: url(../Imagens/Lobby.png);
+    background-image: url(../Imagens/Dojo.png);
     background-size: cover;
     background-position: center;
     position: fixed;
@@ -36,4 +36,25 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    left: 20px;
+}
+
+.shop{
+    height: 60%;
+    width: 70%;
+    border: 2px solid white;
+    background-color: black;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+}
+
+.killers{
+    height: 50px;
+    width: 50px;
 }
